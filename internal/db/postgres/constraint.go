@@ -2,7 +2,7 @@ package postgres
 
 import (
 	"context"
-	"errors"
+	"github.com/pkg/errors"
 )
 
 const (
@@ -22,11 +22,14 @@ func (c *connection) GetConstraintName(ctx context.Context, tableName string, co
 		return "", errors.New("missing column name's")
 	}
 
-	if conn, err := c.GetMasterConn(ctx); err != nil {
-		return
-	} else {
-		constraintName = ""
-		err = conn.QueryRow(ctx, SQL, tableName, columnNames, len(columnNames)).Scan(&constraintName)
+	conn, err := c.GetMasterConn(ctx)
+	if err != nil {
+		return "", errors.Wrap(err, "GetMasterConn")
 	}
+	defer conn.Release()
+
+	constraintName = ""
+	err = conn.QueryRow(ctx, SQL, tableName, columnNames, len(columnNames)).Scan(&constraintName)
+
 	return
 }

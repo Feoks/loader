@@ -5,7 +5,6 @@ import (
 	"github.com/jackc/pgx/v4/pgxpool"
 )
 
-
 type Postgres interface {
 	Connection
 	Constraint
@@ -18,7 +17,6 @@ type Connection interface {
 	GetReplicaConn(context.Context) (*pgxpool.Conn, error)
 	Close()
 }
-
 
 type Constraint interface {
 	GetConstraintName(context.Context, string, []string) (string, error)

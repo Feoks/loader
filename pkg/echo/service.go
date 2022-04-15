@@ -19,7 +19,7 @@ func (s *echoService) GetEcho(ctx context.Context, req *GetEchoListRequest) (res
 			{
 				Id:       uint32(1),
 				Title:    "title",
-				Reminder: "Reminder",
+				Reminder: s.e.Ping(),
 			},
 		},
 	}
