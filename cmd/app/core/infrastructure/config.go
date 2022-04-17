@@ -1,7 +1,7 @@
 package infrastructure
 
 import (
-	"git.repo.services.lenvendo.ru/grade-factor/echo/configs"
+	"github.com/Feoks/loader/configs"
 	"github.com/pkg/errors"
 )
 

@@ -2,8 +2,8 @@ package infrastructure
 
 import (
 	"context"
-	"git.repo.services.lenvendo.ru/grade-factor/echo/configs"
-	s "git.repo.services.lenvendo.ru/grade-factor/echo/tools/sentry"
+	"github.com/Feoks/loader/configs"
+	s "github.com/Feoks/loader/tools/sentry"
 	"github.com/pkg/errors"
 )
 

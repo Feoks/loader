@@ -3,8 +3,8 @@ package infrastructure
 import (
 	"context"
 	"fmt"
-	"git.repo.services.lenvendo.ru/grade-factor/echo/configs"
-	"git.repo.services.lenvendo.ru/grade-factor/echo/tools/tracing"
+	"github.com/Feoks/loader/configs"
+	"github.com/Feoks/loader/tools/tracing"
 	"github.com/pkg/errors"
 	"io"
 )

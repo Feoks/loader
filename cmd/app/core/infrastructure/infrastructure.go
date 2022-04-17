@@ -5,8 +5,8 @@ import (
 	"fmt"
 	"os"
 
-	"git.repo.services.lenvendo.ru/grade-factor/echo/configs"
-	"git.repo.services.lenvendo.ru/grade-factor/echo/tools/logging"
+	"github.com/Feoks/loader/configs"
+	"github.com/Feoks/loader/tools/logging"
 	"github.com/go-kit/kit/log/level"
 )
 

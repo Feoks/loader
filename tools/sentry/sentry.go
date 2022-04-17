@@ -5,8 +5,8 @@ import (
 	"encoding/json"
 	"net/http"
 
-	"git.repo.services.lenvendo.ru/grade-factor/echo/configs"
-	"git.repo.services.lenvendo.ru/grade-factor/echo/pkg/health"
+	"github.com/Feoks/loader/configs"
+	"github.com/Feoks/loader/pkg/health"
 	"github.com/getsentry/sentry-go"
 	sentryhttp "github.com/getsentry/sentry-go/http"
 )

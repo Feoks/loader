@@ -1,8 +1,8 @@
 package domain
 
 import (
-	e "git.repo.services.lenvendo.ru/grade-factor/echo/internal/repository/echo"
-	"git.repo.services.lenvendo.ru/grade-factor/echo/pkg/echo"
+	e "github.com/Feoks/loader/internal/repository/echo"
+	"github.com/Feoks/loader/pkg/echo"
 )
 
 const ECHO_PATH = "/echo"

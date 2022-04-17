@@ -3,7 +3,7 @@ package domain
 import (
 	"context"
 
-	"git.repo.services.lenvendo.ru/grade-factor/echo/pkg/health"
+	"github.com/Feoks/loader/pkg/health"
 )
 
 const HEALTH_PATH = ""

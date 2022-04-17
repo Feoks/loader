@@ -1,9 +1,9 @@
 package main
 
 import (
-	"git.repo.services.lenvendo.ru/grade-factor/echo/cmd/app/core"
-	"git.repo.services.lenvendo.ru/grade-factor/echo/internal/server"
-	"git.repo.services.lenvendo.ru/grade-factor/echo/tools/logging"
+	"github.com/Feoks/loader/cmd/app/core"
+	"github.com/Feoks/loader/internal/server"
+	"github.com/Feoks/loader/tools/logging"
 	"github.com/go-kit/kit/log/level"
 
 	"os"

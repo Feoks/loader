@@ -2,9 +2,9 @@ package core
 
 import (
 	"context"
-	"git.repo.services.lenvendo.ru/grade-factor/echo/cmd/app/core/domain"
-	"git.repo.services.lenvendo.ru/grade-factor/echo/cmd/app/core/infrastructure"
-	"git.repo.services.lenvendo.ru/grade-factor/echo/configs"
+	"github.com/Feoks/loader/cmd/app/core/domain"
+	"github.com/Feoks/loader/cmd/app/core/infrastructure"
+	"github.com/Feoks/loader/configs"
 )
 
 type ServiceCore interface {

@@ -2,11 +2,11 @@ package domain
 
 import (
 	"context"
-	"git.repo.services.lenvendo.ru/grade-factor/echo/cmd/app/core/infrastructure"
+	"github.com/Feoks/loader/cmd/app/core/infrastructure"
 	"net/http"
 
-	"git.repo.services.lenvendo.ru/grade-factor/echo/pkg/echo"
-	"git.repo.services.lenvendo.ru/grade-factor/echo/pkg/health"
+	"github.com/Feoks/loader/pkg/echo"
+	"github.com/Feoks/loader/pkg/health"
 	googlegrpc "google.golang.org/grpc"
 )
 

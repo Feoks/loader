@@ -2,8 +2,8 @@ package infrastructure
 
 import (
 	"context"
-	"git.repo.services.lenvendo.ru/grade-factor/echo/configs"
-	"git.repo.services.lenvendo.ru/grade-factor/echo/tools/metrics"
+	"github.com/Feoks/loader/configs"
+	"github.com/Feoks/loader/tools/metrics"
 )
 
 type metric struct{}

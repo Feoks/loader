@@ -10,9 +10,9 @@ import (
 	"syscall"
 	"time"
 
-	"git.repo.services.lenvendo.ru/grade-factor/echo/configs"
-	"git.repo.services.lenvendo.ru/grade-factor/echo/tools/limiting"
-	"git.repo.services.lenvendo.ru/grade-factor/echo/tools/sentry"
+	"github.com/Feoks/loader/configs"
+	"github.com/Feoks/loader/tools/limiting"
+	"github.com/Feoks/loader/tools/sentry"
 	"github.com/go-kit/kit/log"
 	"github.com/go-kit/kit/log/level"
 	"github.com/oklog/run"

@@ -2,7 +2,7 @@ package main
 
 import (
 	"context"
-	c "git.repo.services.lenvendo.ru/grade-factor/echo/cmd/app/core"
+	c "github.com/Feoks/loader/cmd/app/core"
 )
 
 func main() {

@@ -2,7 +2,7 @@ package infrastructure
 
 import (
 	"context"
-	"git.repo.services.lenvendo.ru/grade-factor/echo/configs"
+	"github.com/Feoks/loader/configs"
 )
 
 //initInfrastructure init - инициализация юнитов
