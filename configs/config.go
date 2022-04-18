@@ -55,6 +55,9 @@ var options = []option{
 	{"postgres.replica.database_name", "string", "", "postgres master database name"},
 	{"postgres.replica.secure", "string", "disable", "postgres master SSL support"},
 	{"postgres.replica.max_conns_pool", "int", 150, "max number of connections pool postgres"},
+
+	{"watcher.period", "int", 5, "period of loader running"},
+	{"watcher.file_name", "string", "upload/data.json", "period of loader running"},
 }
 
 type Config struct {
@@ -94,6 +97,11 @@ type Config struct {
 	Postgres struct {
 		Master  Database
 		Replica Database
+	}
+	Watcher struct {
+		Period   int
+		FileName string
+		//TODO SenderConfigs
 	}
 }
 

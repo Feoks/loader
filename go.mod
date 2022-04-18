@@ -3,6 +3,7 @@ module github.com/Feoks/loader
 go 1.16
 
 require (
+	github.com/Feoks/echo v0.0.0-20220417211908-1a60ecdc3156
 	github.com/getsentry/sentry-go v0.11.0
 	github.com/go-kit/kit v0.12.0
 	github.com/golang/mock v1.6.0
